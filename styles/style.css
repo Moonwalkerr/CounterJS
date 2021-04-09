@@ -10,7 +10,7 @@ body{
     text-align: center;
     font-size: 32px;
     color:yellow;
-    box-shadow: 0 0 5px white;
+    box-shadow: 1px 2px 7px white;
 }
 .head:hover{
     text-decoration: underline;

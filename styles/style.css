@@ -4,11 +4,13 @@ body{
 }
 
 .head{
+    height: 140px;
+    padding:5px;
     border: 2px solid grey;
     background-color: #333;
     margin-bottom: 22px;
     text-align: center;
-    font-size: 32px;
+    font-size: 28px;
     color:yellow;
     box-shadow: 1px 2px 7px white;
 }

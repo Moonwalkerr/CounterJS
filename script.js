@@ -1,11 +1,13 @@
-var count = document.getElementsByClassName("counter");
+var counter = document.querySelector(".counter");
+var follow = document.querySelector(".follow");
+setInterval(
+    () => {
+        if (count < 1000) {
+            count++;
+            counter.innerText = count;
+        }
+    }, 1);
 
-var follow = document.getElementById("follow");
-
-let counter = 0;
-setInterval(() => {
-    if (counter < 1000){
-              counter++;
-              count.innerText = counter; 
-    }
-},1000)
+setTimeout(() => {
+    follow.innerText = "Fred has lost count !";
+}, 5000);

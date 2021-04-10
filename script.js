@@ -23,7 +23,7 @@ setInterval(()=>{
     }
     
     if (count === 5000){
-        follow.innerText = "Fred has lost is count now  !! " ;
+        follow.innerText = "Fred has lost count now  !! " ;
     }
 
 },1)

@@ -12,11 +12,14 @@ setInterval(()=>{
     }
 
     if (count === 1000){
-        follow.innerText = "Fred is at  !! " + count;
+        follow.innerText = "Fred is at " + count + "!!";
     }
     
     if (count === 2000){
-        follow.innerText = "Fred is at  !! " + count;
+        follow.innerText = "Fred is at   " + count + "!!";
+    }
+   if (count === 3000){
+        follow.innerText = "Fred is at   " + count + "!!";
     }
     
     if (count === 5000){
